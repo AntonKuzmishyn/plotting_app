@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@android:color/holo_blue_light">
+
+    <ImageView
+        android:id="@+id/popupImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/me" />
+
+    <TextView
+        android:id="@+id/popupLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:autoLink="web"
+        android:text="App Created by Anton Kuzmišyn https://instagram.com/anton_kuzmishyn?igshid=NGExMmI2YTkyZg=="
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close" />
+
+</LinearLayout>
